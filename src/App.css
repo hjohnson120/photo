@@ -1,4 +1,4 @@
-@@import url('https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Serif|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|IBM+Plex+Serif|Pacifico&display=swap');
 
 .App {
   text-align: center;
@@ -27,6 +27,18 @@ body {
 
 .navBtn {
   cursor: pointer;
+  background-color: rgb(25, 24, 24);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navBtn :active {
+  border: none;
 }
 
 .topNav {
@@ -34,6 +46,7 @@ body {
   width: 100vw;
   color: white;
   display: flex;
+  padding: 0;
 }
 
 .logoPic {
@@ -55,17 +68,4 @@ body {
 .contact {
   margin-left: 10%;
   padding-top: 2%;
-}
-
-.topNav p {
-  margin: 2%;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

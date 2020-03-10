@@ -4,15 +4,23 @@ import '../App.css'
 function TopNav() {
   return (
     <div className="topNav">
-      <p>
-        <a clasName="navBtn" href="https://www.w3schools.com/" target="_blank">
-          Visit W3Schools!
-        </a>
-        <button className="navBtn">Hi</button>
-        <button className="navBtn">Hi</button>
-        <button className="navBtn">Hi</button>
-        <button className="navBtn">Hi</button>
-      </p>
+      <a className="navBtn" href="https://www.w3schools.com/" target="_blank">
+        Visit W3Schools!
+      </a>
+      <a className="navBtn" href="html_images.asp">
+        {' '}
+        HI
+      </a>
+      <a className="navBtn" href="html_images.asp">
+        {' '}
+        HI
+      </a>
+      <a className="navBtn" href="html_images.asp">
+        HI
+      </a>
+      <a className="navBtn" href="html_images.asp">
+        HI
+      </a>
     </div>
   )
 }
