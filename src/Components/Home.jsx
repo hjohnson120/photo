@@ -6,12 +6,10 @@ import portrait from './DSC_2273.jpg'
 function Home() {
   return (
     <div>
-      <div>
-        <img className="logo" alt="Asher + Rose Photography" src={Logo} />
+      <div className="logo">
+        <img className="logoPic " alt="Asher + Rose Photography" src={Logo} />
       </div>
-      <div>
-        <img className="mainPhoto" alt="Portrait" src={portrait} />
-      </div>
+      <img className="mainPhoto" alt="Portrait" src={portrait} />
       <div className="bottomLinks">
         <div className="contact">
           <p>asher.</p>

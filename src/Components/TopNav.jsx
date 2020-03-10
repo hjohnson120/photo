@@ -5,7 +5,9 @@ function TopNav() {
   return (
     <div className="topNav">
       <p>
-        <button className="navBtn">Hi</button>
+        <a clasName="navBtn" href="https://www.w3schools.com/" target="_blank">
+          Visit W3Schools!
+        </a>
         <button className="navBtn">Hi</button>
         <button className="navBtn">Hi</button>
         <button className="navBtn">Hi</button>
