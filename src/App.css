@@ -3,6 +3,10 @@
 .App {
   text-align: center;
 }
+
+html {
+  background-color: #000000;
+}
 body {
   font-family: 'IBM Plex Serif', serif;
   font-weight: bold;
@@ -15,7 +19,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,10 +31,10 @@ body {
 
 .navBtn {
   cursor: pointer;
-  background-color: rgb(25, 24, 24);
+  background-color: #000000;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -42,23 +46,65 @@ body {
 }
 
 .topNav {
-  background-color: rgb(25, 24, 24);
+  background-color: #000000;
   width: 100vw;
   color: white;
   display: flex;
   padding: 0;
+  position: sticky;
 }
 
 .logoPic {
-  max-width: 100vw;
+  width: 40%;
+  position: absolute;
+  right: 4%;
+  margin-top: 1%;
 }
 
 .mainPhoto {
   width: 100vw;
+  margin-top: -150px;
+}
+
+.photoOne {
+  max-height: 90vh;
+  max-width: 50%;
+}
+
+.photoTwo {
+  max-width: 50%;
+}
+
+/* .photoInfo {
+  width: 50%;
+} */
+
+.flexPhoto {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+
+.mailTo {
+  color: white;
+}
+
+.aboutInfo {
+  padding: 5% 15%;
+}
+
+.photoInfo {
+  width: 50%;
+  text-align: center;
+}
+.homePhotos {
+  background-color: #fff;
+  color: #000000;
 }
 
 .bottomLinks {
-  background-color: rgb(25, 24, 24);
+  background-color: #000000;
   color: white;
   height: 200px;
   bottom: 0;
@@ -66,6 +112,9 @@ body {
 }
 
 .contact {
-  margin-left: 10%;
-  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0% 10%;
+  padding: 3%;
 }
