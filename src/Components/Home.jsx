@@ -16,37 +16,40 @@ function Home() {
       <div className="bottomLinks">
         <div className="aboutInfo">
         <h1>Hello + Welcome!</h1>
-          <p> HEY new friend! I am Bri, owner and sole photographer of Asher + Rose Photography, + I am SO
+          <p> HEY new friend! I'm Bri, owner and sole photographer of Asher + Rose Photography. I am SO
             excited that you're here!
-            I am just a fun lovin'  coffee obsessed momma of three who took a chance with her camera and ended up
+            I'm just a fun lovin' coffee obsessed momma of three who took a chance with her camera and ended up
             ABSOLUTELY LOVING IT! 
-            I am a full service photographer who serves the Tampa bay and surrounding areas.
-            I am a natural light photographer who loves the outdoors and exploring new locations and capturing 
-            the true beauty of both the 
-            clients and their surroundings with a very minimalistic style of editing.
-            I like to call my editing style bright and moody, as I love the bright sun 
-            flares but also love my images to have a bit of a moody flare.
-            I love to use goofy prompts and not so funny jokes to get those real 
-            raw reactions out of my clients, so come prepared to laugh and have a good time at your session.
-            My favorite part of what I do, is the prep of it all! Talking with my clients prior to 
-            the session, making Pinterest boards, grabbing coffee, and just really making sure that your 
-            session is EVERYTHING you imagined It would be
-            I would love to talk with you about your vision + how I can make your fairytale come true!
-            Since we are now new friends, feel free to email me anytime! photography related or not!
-            Asher.rosephoto@gmail.com
+            I'm a full service photographer who serves the Greater Tampa Bay area.
+            I am a natural light photographer who LOVES the outdoors, exploring new locations and capturing 
+            the true beauty of both clients and their surroundings. With a very minimalistic style of editing,
+            I like to call my editing style bright and moody. I love the bright sun 
+            flares and also love my images to have a bit of a moody feel.
+            Using goofy props and "not so funny" jokes I'm able to capture those real 
+            raw reactions out of my clients. So come prepared to laugh and have a good time at your session.
+            My favorite part of what I do is the prep of it all. Talking with you prior to 
+            the session, making Pinterest boards, grabbing coffee and just really making sure that your 
+            session is EVERYTHING you imagined and more.
+            I would love to talk with you about your vision and how I can make your fairytale come true!
+            Since we are now new friends, feel free to 
+            <a className="mailTo" href="mailto:asher.rosephoto@gmail.com">
+                email
+              </a> me anytime! (Photography related or not)
             </p>
         </div>
         <div className="homePhotos">
           <div className="flexPhoto">
             <img className="photoOne" alt="Newborn portrait" src={couple} />
-            <p className="photoInfo"> couple thingsss</p>
+            <h1 className="photoInfo"> couple thingsss</h1>
+            <p>info about above junk</p>
           </div>
           {/* <div className="flexPhoto">
             <img className="photoTwo" alt="Newborn portrait" src={photoTwo} />
             <p> Babyyyy</p>
           </div> */}
           <div className="flexPhoto">
-            <p className="photoInfo"> Elopements yay</p>
+          <h1 className="photoInfo"> Stuff and More Stuff</h1>
+            <p>info about above junk</p>
             <img
               className="photoOne"
               alt="Sunset St.Petersburg, FL"
