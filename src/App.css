@@ -75,10 +75,6 @@ body {
   max-width: 50%;
 }
 
-/* .photoInfo {
-  width: 50%;
-} */
-
 .flexPhoto {
   display: flex;
   flex-wrap: wrap;
@@ -96,8 +92,10 @@ body {
 
 .photoInfo {
   width: 50%;
+  padding: 10%;
   text-align: center;
 }
+
 .homePhotos {
   background-color: #fff;
   color: #000000;
