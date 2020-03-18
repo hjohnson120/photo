@@ -6,6 +6,9 @@ import photoOne from '../images/vvv.jpg'
 import portrait1 from '../images/portrait1.jpg'
 import couple from '../images/ff.jpg'
 import two from '../images/22.jpg'
+import swirl from '../images/swirl2.gif'
+
+import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   return (
@@ -47,14 +50,17 @@ function Home() {
           <div className="flexPhoto">
             <img className="photoOne" alt="Newborn portrait" src={couple} />
             <div className="photoInfo">
-              <h1>HI</h1>
-              <p> couple thingsss</p>
+              <h1> Portraits</h1>
+              <h1> Headshots</h1>
+              <h1> Seniors</h1>
+              <h1> Cap & Gown</h1>
             </div>
           </div>
-          <div className="flexPhoto">
+          <div className="flexPhoto2">
             <div className="photoInfo">
-              <h1>HI</h1>
-              <p> couple thingsss</p>
+              <h1> Newborn</h1>
+              <h1> Fresh 48</h1>
+              <h1> Birth</h1>
             </div>
             <img
               className="photoOne"
@@ -65,14 +71,16 @@ function Home() {
           <div className="flexPhoto">
             <img className="photoOne" alt="Portrait" src={portrait1} />
             <div className="photoInfo">
-              <h1>HI</h1>
-              <p> couple thingsss</p>
+              <h1> Cake Smash</h1>
+              <h1> Families</h1>
+              <h1> Milestones</h1>
             </div>
           </div>
-          <div className="flexPhoto">
+          <div className="flexPhoto2">
             <div className="photoInfo">
-              <h1>Hi</h1>
-              <p> Elopements yay</p>
+              <h1> Elopements</h1>
+              <h1> Weddings</h1>
+              <h1> Engagements</h1>
             </div>
             <img
               className="photoOne"
@@ -92,7 +100,9 @@ function Home() {
             <p>Greater Tampa Bay Area, FL</p>
           </div>
           <div>
-            <p>links things</p>
+            <p>
+              <faFacebook icon="facebook" />
+            </p>
           </div>
         </div>
       </div>
