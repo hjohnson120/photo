@@ -5,22 +5,19 @@ function TopNav() {
   return (
     <div className="nav">
       <div className="topNav">
-        <a className="navBtn" href="https://www.w3schools.com/" target="_blank">
-          Visit W3Schools!
+        <a className="navBtn" href="/sessions" target="_blank">
+          SESSIONS
         </a>
         <a className="navBtn" href="html_images.asp">
           {' '}
-          HI
+          ABOUT
         </a>
         <a className="navBtn" href="html_images.asp">
           {' '}
-          HI
+          CONTACT
         </a>
         <a className="navBtn" href="html_images.asp">
-          HI
-        </a>
-        <a className="navBtn" href="html_images.asp">
-          HI
+          BLOG
         </a>
       </div>
     </div>
