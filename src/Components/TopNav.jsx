@@ -5,7 +5,7 @@ function TopNav() {
   return (
     <div className="nav">
       <div className="topNav">
-        <a className="navBtn" href="/sessions" target="_blank">
+        <a className="navBtn" href="/sessions">
           SESSIONS
         </a>
         <a className="navBtn" href="html_images.asp">

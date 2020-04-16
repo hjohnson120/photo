@@ -6,9 +6,6 @@ import photoOne from '../images/vvv.jpg'
 import portrait1 from '../images/portrait1.jpg'
 import couple from '../images/ff.jpg'
 import two from '../images/22.jpg'
-import swirl from '../images/swirl2.gif'
-
-import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   return (
