@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.session-page {
+  max-width: 70%;
+}
+
+.session-name {
+  position: absolute;
+  top:0;
+  right:0;
+ 
+}
+
 html {
   background-color: #000000;
 }
@@ -43,6 +54,7 @@ body {
 
 .tester {
   max-width: 50vw;
+  position: relative;
 }
 
 .navBtn:active {
@@ -131,6 +143,9 @@ body {
   color: #000000;
 }
 
+.socials-section {
+  margin-top:5%;
+}
 .bottomLinks {
   background-color: #000000;
   color: white;
@@ -139,10 +154,20 @@ body {
   margin: -4px;
 }
 
+.socials-btn {
+  border: none;
+  padding: none;
+
+}
+
+a {
+  color: white;
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0% 16%;
   padding: 3%;
 }

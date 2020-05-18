@@ -6,6 +6,8 @@ import photoOne from '../images/vvv.jpg'
 import portrait1 from '../images/portrait1.jpg'
 import couple from '../images/ff.jpg'
 import two from '../images/22.jpg'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Home() {
   return (
@@ -96,10 +98,13 @@ function Home() {
             <p>(727) 417-2947</p>
             <p>Greater Tampa Bay Area, FL</p>
           </div>
-          <div>
-            <p>
-              <faFacebook icon="facebook" />
-            </p>
+          <div className="socials-section">
+            <a className="" href="https://www.facebook.com/asherandrose/">
+              <FacebookIcon/> 
+            </a>
+            <a className="" href="/">
+              <InstagramIcon/> 
+            </a>
           </div>
         </div>
       </div>

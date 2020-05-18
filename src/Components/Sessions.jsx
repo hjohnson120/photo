@@ -7,8 +7,8 @@ function Sessions() {
     <div className="mainContainer">
       <section className="sessionsMain">
         <div className="tester">
-          <img className="tester" alt="Newborn portrait" src={couple} />
-          <h1>The thing here</h1>
+          <img className="session-page" alt="Newborn portrait" src={couple} />
+          <h1 className="session-name">The thing here</h1>
         </div>
         <div>
           <img className="tester" alt="Newborn portrait" src={couple} />
